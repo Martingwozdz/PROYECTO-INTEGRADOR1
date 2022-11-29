@@ -1,0 +1,77 @@
+
+.houseofdev{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 38.67%;
+
+background: #FE4236;
+}
+
+.input{
+    box-sizing: border-box;
+
+position: absolute;
+left: 8%;
+right: 8%;
+top: 65.02%;
+bottom: 28.94%;
+
+border: 1px solid #123AC8;
+border-radius: 25px;
+}
+
+.input2{
+    box-sizing: border-box;
+
+position: absolute;
+left: 8%;
+right: 8%;
+top: 72.66%;
+bottom: 21.31%;
+
+border: 1px solid #123AC8;
+border-radius: 25px;
+}
+
+.input3{
+    box-sizing: border-box;
+
+position: absolute;
+left: 8%;
+right: 8%;
+top: 80.36%;
+bottom: 13.20%;
+
+border: 1px solid #123AC8;
+border-radius: 25px;
+}
+
+.boton{
+    box-sizing: border-box;
+
+position: absolute;
+margin-top: 10px;
+left: 67.2%;
+right: 8%;
+top: 87.08%;
+bottom: 6%;
+
+border: 1px solid #123AC8;
+border-radius: 25px;
+}
+
+.house{
+    position: absolute;
+left: 8.58%;
+right: 30.14%;
+top: 42.49%;
+bottom: 51.24%;
+
+background: #F7F3EE;
+mix-blend-mode: normal;
+border: 1px solid #F7F3EE;
+}
+
+
