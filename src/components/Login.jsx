@@ -1,4 +1,4 @@
-import "../styles/login/style.css"
+import "../styles/styles.css";
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router";
@@ -22,7 +22,7 @@ const Login = () => {
         { withCredentials: true }
       )
       .then((res) => console.log(res.data))
-      .then(() => navigate("/register"))
+      .then(() => navigate("/"))
       .catch((error) => console.log(error));
   };
 
@@ -49,7 +49,7 @@ return (
    <br></br>
    <input className="input2" onChange={handleChangePassword} type="password" placeholder="Contraseña"/> 
    <br></br>
-   <button className="bottonLogin"> Login </button>
+   <button className="boton"> Login </button>
   </form>
   </div>
   

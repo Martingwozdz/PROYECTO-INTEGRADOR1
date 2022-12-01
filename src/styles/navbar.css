@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+.logoNavBar {
+  background-color: #fe4236;
+}
+
+.imagennavbar{
+ padding-top: 10px;
+ padding-bottom: 1px;
+ padding-left: 40px;
+
+}
+
+.botonesnavbar {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #f7f3ee;
+  }
+  .butonesnavbar:hover {
+    color: #ede6db
+  }
+
+  .imagenHome{
+
+    position: absolute;
+    width: 542px;
+    margin-top: 81px;
+    height: 900px;
+    left: 898px;
+    top: 0px;
+  }

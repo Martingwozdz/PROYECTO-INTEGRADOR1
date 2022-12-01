@@ -2,7 +2,8 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
 import { Navigate } from "react-router-dom";
-import "../styles/login/style.css"
+import "../styles/styles.css";
+
 
 
 const Register = () => {
@@ -26,9 +27,7 @@ const Register = () => {
       })
       .catch(() => alert('Wrong registration, please try again'));
   }
-
   
-
    const handleName = (event) => {
        setName(event.target.value)
         };

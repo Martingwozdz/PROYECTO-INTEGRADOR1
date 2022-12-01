@@ -17,10 +17,10 @@ Properties.init(
            price: {
              type: S.INTEGER,
            },
-           img: {
-             type: S.ARRAY(S.STRING),
-             defaultValue: [],
-           },
+          //img: {
+         //   type: S.ARRAY(S.STRING),
+          //  defaultValue: [],
+           // },
            location: {
              type: S.STRING,
            },
